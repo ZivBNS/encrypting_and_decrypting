@@ -29,14 +29,14 @@ public class Server
 	//get an enumeration of all the outputStreams, one for each client connected to us
 	Enumeration getOutputStreams()
 	{
-		return outputStream.elements();//дзшъ осфш дсишйойн
+		return outputStream.elements();//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	}
 	//send a message to all client (utility routine)
 	void sendToAll(String message)
 	{
 		//we synchronize on this because another thread might be calling removeConnection() and this could make problems when trying to walk through the list
 		synchronized(outputStream)
-		{//дъзм оочен шащеп бибмъ ддащ едощк мсишйн дба
+		{//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
 			for(Enumeration e = getOutputStreams(); e.hasMoreElements();)//for each client
 			{
 				DataOutputStream dataout = (DataOutputStream)e.nextElement();//get the output stream

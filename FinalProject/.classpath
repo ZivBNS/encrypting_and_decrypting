@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Resorce"/>
+	<classpathentry kind="lib" path="C:/Users/zivbs/Documents/בית ספר/FinalProject/src/balloontip-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zivbs/Documents/בית ספר/FinalProject/src/bcprov-ext-jdk15on-154.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zivbs/Documents/בית ספר/FinalProject/src/bcprov-jdk15on-154.jar"/>
+	<classpathentry kind="lib" path="src/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zivbs/Documents/בית ספר/FinalProject/bin/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="src/Steganography/Steganography1.jar"/>
+	<classpathentry kind="lib" path="src/Steganography/Steganography2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
